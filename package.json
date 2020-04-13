@@ -1,0 +1,26 @@
+{
+  "name": "otl-theme",
+  "displayName": "OTL Theme",
+  "description": "Fork of MCEdit, w/ font ligatures and some quality of life enhancements",
+  "version": "0.0.5",
+  "publisher": "Talasan Nicholson",
+  "engines": {
+    "vscode": "^1.44.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "./icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "OTL Theme",
+        "path": "./themes/otl-theme.json",
+        "uiTheme": "vs-dark"
+      }
+    ]
+  },
+  "devDependencies": {
+    "prettier": "^2.0.4"
+  }
+}
