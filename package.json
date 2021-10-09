@@ -3,14 +3,19 @@
   "displayName": "OTL Theme",
   "description": "Fork of MCEdit, w/ font ligatures and some quality of life enhancements",
   "version": "0.0.6",
-  "publisher": "Talasan Nicholson",
+  "repository": "https://github.com/outthislife/otl-theme",
+  "publisher": "outthislife",
+  "scripts": {
+    "build": "npx -y vsce package",
+    "release": "npx -y vsce publish"
+  },
   "engines": {
-    "vscode": "^1.44.0"
+    "vscode": "^1.22.0"
   },
   "categories": [
     "Themes"
   ],
-  "icon": "https://raw.githubusercontent.com/OutThisLife/otl-theme/master/icon.png",
+  "icon": "icon.png",
   "contributes": {
     "themes": [
       {
