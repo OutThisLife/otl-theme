@@ -103,7 +103,7 @@
     },
     {
       "name": "Variable",
-      "scope": "variable",
+      "scope": ["variable", "source.glsl"],
       "settings": {
         "foreground": "#55ff55"
       }
@@ -117,7 +117,7 @@
     },
     {
       "name": "Function Call",
-      "scope": "meta.function-call",
+      "scope": ["meta.function-call", "support.function"],
       "settings": {
         "foreground": "#55ffff"
       }
@@ -367,8 +367,11 @@
         "entity.name.function",
         "entity.name.type.class",
         "entity.other.attribute-name",
+        "entity.other.inherited-class",
         "keyword",
         "markup.italic",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
         "punctuation.section.embedded",
         "storage.type.class.js",
         "storage",
